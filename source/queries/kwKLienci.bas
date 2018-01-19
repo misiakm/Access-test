@@ -2,7 +2,7 @@
 Option =0
     Name ="klienci"
 End
-    Expression ="klienci.*"
+    Expression ="klienci.nazwa"
 End
 dbBoolean "ReturnsRecords" ="-1"
 dbInteger "ODBCTimeout" ="60"
@@ -14,6 +14,9 @@ dbBoolean "FilterOnLoad" ="0"
 dbBoolean "OrderByOnLoad" ="-1"
 dbBoolean "TotalsRow" ="0"
 dbByte "PublishToWeb" ="1"
+        dbText "Name" ="klienci.nazwa"
+        dbLong "AggregateType" ="-1"
+    End
 End
     State =0
     Left =0
@@ -23,7 +26,7 @@ End
     Left =-1
     Top =-1
     Right =1048
-    Bottom =411
+    Bottom =394
     Left =0
     Top =0
     ColumnsShown =539
