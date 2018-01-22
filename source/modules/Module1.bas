@@ -6,5 +6,5 @@ MsgBox "abc"
 End Sub
 
 Sub test()
-   Call MsgBox("Test HUB", vbCritical)
+   Call MsgBox("Test git", vbCritical)
 End Sub
