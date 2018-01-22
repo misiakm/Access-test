@@ -8,11 +8,11 @@ PublishOption =1
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridY =10
-    Width =11010
+    Width =11018
     DatasheetFontHeight =11
     ItemSuffix =5
-    Right =20760
-    Bottom =12255
+    Right =20505
+    Bottom =12285
     DatasheetGridlinesColor =15132391
         0xc7f3a305fa0de540
     End
@@ -86,13 +86,10 @@ PublishOption =1
             GridlineShade =65.0
         End
             Height =542
-            BackColor =15064278
             Name ="NagłówekFormularza"
             AutoHeight =1
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
-            BackThemeColorIndex =2
-            BackTint =20.0
                     SizeMode =0
                     Left =300
                     Top =60
@@ -256,7 +253,7 @@ PublishOption =1
                 End
             End
         End
-            Height =1072
+            Height =1080
             Name ="Szczegóły"
             AutoHeight =1
             AlternateBackColor =15921906
@@ -303,7 +300,7 @@ PublishOption =1
                             BorderColor =8355711
                             ForeColor =8355711
                             Name ="Etykieta0"
-                            Caption ="nazwa"
+                            Caption ="Klient"
                             GroupTable =1
                             BottomPadding =150
                             GridlineColor =10921638
